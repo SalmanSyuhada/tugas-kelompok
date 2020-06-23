@@ -7,96 +7,157 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="simple-line-icons.min.css">
+	<link rel="stylesheet" href="skin.css"> 
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header-left">
-             <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-        </div>
-        <!-- Tambahkan ikon menu disini -->
-        <span class="fa fa-bars menu-icon"></span>
-        <div class="header-right">
-          <a href="#">Pelajaran</a>
-          <a href="#">Daftar</a>
-          <a href="#" class="login">Log in</a>
-        </div>
-      </div>
-    </header>
-     <div class="top-wrapper">
-      <div class="container">
-        <h1>BELAJAR CODING.</h1>
-        <h1>BELAJAR MENJADI LEBIH KREATIF.</h1>
-        <p>Progate adalah platform online untuk belajar coding.</p>
-        <p>Kami menawarkan lingkungan pemograman yang lengkap untuk mempermudah Anda memulai.</p>
-        <div class="btn-wrapper">
-          <a href="#" class="btn signup">Daftar dengan Email</a>
-          <p>atau</p>
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
-        </div>
-      </div>
-    </div>
-    <div class="lesson-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Cari tau dari mana anda mau memulai!</h2>
-        </div>
-        <div class="lessons">
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/html.png">
-               <p>HTML & CSS</p>
-            </div>
-             <p class="text-contents">Bahasa yang digunakan untuk membuat dan mendesain tampilan situs web Anda. </p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-              <p>jQuery</p>
-            </div>
-            <p class="text-contents">Library JavaScript yang cepat, kaya akan fitur, dan mudah digunakan yang menangani animasi dan permintaan Ajax.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/ruby.png">
-              <p>Ruby</p>
-            </div>
-            <p class="text-contents">Bahasa dinamis, serba guna yang sederhana dan produktif. Ruby sering digunakan untuk membuat aplikasi web yang responsive.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/php.png">
-              <p>PHP</p>
-            </div>
-            <p class="text-contents">Bahasa skrip open source yang dapat disematkan ke dalam HTML, dan cocok untuk pengembangan web.</p>
-          </div>
-          <div class="clear"></div>
-        </div>
-      </div>
-    </div>
-    <div class="message-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Apakah anda siap untuk menjadi programer yang handal?</h2>
-          <h3>Ayo belajar coding, ayo belajar menjadi lebih kreatif!</h3>
-        </div>
-        <span class="btn message">Mulai Belajar</span>
-      </div>
-    </div>
-    <div class="covid19-stats">
-      <div class="container">
-         <div class="heading">
-          <h2 align="center">Covid19-Stats</h2>
-        </div> <br/>
-        	<iframe src="https://covid19.data.eti.br/" width="100%" height="650px"></iframe>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Tugas Kelompok I54</p>
-      </div>
-    </footer>
+		<header id="header" class="header-floating" data-plugin-options="{'stickyEnabled': false, 'stickyEnableOnBoxed': false, 'stickyEnableOnMobile': false, 'stickyStartAt': 0, 'stickySetTop': '60px', 'stickyChangeLogo': false}">
+				<div class="header-body">
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-nav pt-1">
+										<div class="header-nav-main">
+											<nav class="wrapper-spy collapse">
+												<ul class="nav" id="mainNav">
+													<li>
+														<a data-hash href="#home" class="nav-link text-color-dark background-color-primary">
+															<i class="icon-home icons"></i>
+															<span class="custom-tooltip">Home</span>
+														</a>
+													</li>
+													<li>
+														<a data-hash href="#content" class="nav-link text-color-dark background-color-primary">
+															<i class="icon-docs icons"></i>
+															<span class="custom-tooltip">Content</span>
+														</a>
+													</li>
+													<li>
+														<a data-hash href="#rekrut" class="nav-link text-color-dark background-color-primary">
+															<i class="icon-people icons"></i>
+															<span class="custom-tooltip">Voluntering</span>
+														</a>
+													</li>
+												
+											
+													<li>
+														<a data-hash href="#stats" class="nav-link text-color-dark background-color-primary">
+															<i class="icon-bubbles icons"></i>
+															<span class="custom-tooltip">Statistic</span>
+														</a>
+													</li>
+												
+												</ul>
+											</nav>
+										</div>
+										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+											<i class="fas fa-bars"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</header>
+		<section id="home">
+			<div class="top-wrapper">
+			  <div class="container">
+				 <h1>Volunteering <br>for the Sake of Humanity.</h1>
+				 <p>When everyone loses hope, we're here for you.</p>
+				<div class="btn-wrapper">
+				  <a href="#rekrut" class="btn signup">Voluntering</a>
+				</div>
+			  </div>
+			</div>
+		</section>
+		<section id="content">
+			   <div class="content-wrapper">
+				  <div class="container">
+					<div class="heading">
+					  <h2><b>Pencegahan Covid19</b></h2>
+					</div>
+					<div class="contents">
+					  <div class="content">
+						<div class="content-icon">
+						  <img src="masker.png">
+						   <p>Gunakan masker</p>
+						</div>
+						 <p class="text-contents">Kenakan masker sesuai dengan standard kesehatan yang telah ditetapkan oleh tenaga medis. Jangan lupa untuk mengganti masker sehari sekali.</p>
+					  </div>
+					  <div class="content">
+						<div class="content-icon">
+						  <img src="cuci_tangan.png">
+						  <p>Cuci tangan</p>
+						</div>
+						<p class="text-contents">Biasakan untuk mencuci tangan sebelum makan, dan sebelum menyentuh apapun di rumah ! Cucilah tangan dengan menyeluruh selama 20 detik.</p>
+					  </div>
+					  <div class="content">
+						<div class="content-icon">
+						  <img src="olahraga.png">
+						  <p>Olahraga</p>
+						</div>
+						<p class="text-contents">Kunci hidup sehat adalah olahraga. Tingkatkan sistem imun tubuh dengan melakukan olahraga rutin. Imbangi pula dengan mengkonsumsi makanan dengan porsi dan diet yang seimbang.</p>
+					  </div>
+					  <div class="content">
+						<div class="content-icon">
+						  <img src="cek.png">
+						  <p>Cek Kesehatan</p>
+						</div>
+						<p class="text-contents">Segera cek kesehatan jika mengalami gejala-gejala pneumonia, insomnia, diare dan sesak napas. Kunjungi rumah sakit rujukan COVID19 dan terapkan protokol kesehatan yang sudah ditetapkan.</p>
+					  </div>
+					  <div class="clear"></div>
+					</div>
+				  </div>
+				</div>
+		</section>
+		<section id="rekrut">
+			<div class="message-wrapper">
+			</div>
+			<div class="message-wrapper">
+				<div class="container">
+					<div class="heading">
+					<h4>Tiada peradaban bila tiada kemanusiaan. Bergabunglah dengan kami dan buat masa mudamu lebih bermakna. </h4>
+					<h3>Siap bergabung bersama kami ? </h3>
+					</div>
+					<span class="btn message">Bergabung</span>
+				</div>
+			</div>
+			<div class="message-wrapper">
+				<div class="container">
+					<div class="heading">
+						<h3> Dukung kami dengan memberikan donasi. Dengan memberi donasi Anda ikut mendukung keberlangsungan komunitas kami.</h3>
+					</div>
+					<span class="btn message">Donasi</span>
+				</div>
+			</div>
+			<div class="message-wrapper">
+			</div>
+		</section>
+   
+		<section id="stats">
+		  <div  class="covid19-stats">
+			  <div class="container">
+				 <div class="heading">
+				  <h2 align="center">Covid19-Stats</h2>
+				</div> <br/>
+					<iframe src="https://covid19.data.eti.br/" width="100%" height="650px"></iframe>
+			  </div>
+		   </div>
+		</section>
+		
+		<section id="footer">
+			<footer>
+			  <div class="container">
+				<h5><b>Covid19 - Volunteering</b></h5>
+				<h6><b>Tugas Kelompok I54<b> | Sherary Apriliana | Salman Alparisi | Sabira Nur Ramadhani | Suci Ramadhani Arifin | Sangkutan Tarigan </h6>
+			  </div>
+			</footer>
+		</section>
+   
+		<script src="jquery.min.js"></script>
+		<script src="bootstrap.min.js"></script>		
   </body>
 </html>
